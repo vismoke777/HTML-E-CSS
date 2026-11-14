@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petcão</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+            <a href="#" class="logo">Petcão</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">sobre</a></li>
+                    <li><a href="#gallery">galeria</a></li>
+                    <li><a href="#map">mapa</a></li>
+                    <li><a href="#contact">contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero"></section>
+            <section id="about"> <h1>Sobre</h1>
+
+            <p>O PetCão é um espaço dedicado ao cuidado, bem-estar e felicidade dos nossos melhores amigos. Com carinho, atenção e responsabilidade, buscamos oferecer um ambiente acolhedor onde cada pet possa se sentir seguro, confortável e muito bem cuidado. Nosso objetivo é proporcionar uma experiência especial tanto para os animais quanto para seus tutores.</p>
+
+            <p>No PetCão, acreditamos que cada animal é único e merece receber cuidados personalizados, respeito e muito amor. Trabalhamos para criar uma relação de confiança com os pets e suas famílias, oferecendo um atendimento de qualidade e colocando sempre o bem-estar dos animais em primeiro lugar. Afinal, cuidar de um pet é também cuidar de um membro muito especial da família.</p></section>
+           
+            <section id="gallery"> <h1> Galeria de fotos</h1>
+            <img src="img/1.jpg">
+            <img src="img/2.jpg">
+            <img src="img/3.jpg">
+            <img src="img/4.jpg">
+            <img src="img/5.jpg">
+            <img src="img/6.jpg">
+            <section id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d61424.49294262538!2d-47.97969818115233!3d-15.80232942072373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spetz!5e0!3m2!1spt-BR!2sbr!4v1789085686041!5m2!1spt-BR!2sbr" "width="100%" style="height: 100vh; border:0" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></section>
+        
+            
+
+            <section id="contact">
+            <h1>Contato</h1>
+            <form>
+                <label>Nome   </label>   
+                    <input type="text"
+                     name="nome">
+        
+            <label>Email</label>
+                <input type="email" name="email">
+                
+                <label> Mensagem </label>
+                    <textarea 
+                    name="MENSAGEM" rows="5"></textarea>
+               
+                <button type="submit">enviar</button>
+                  </form>
+
+                </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 todos os direitos reservados 
+                :: Desenvolvido por
+                <a href="daniel.santos97@gmail.com">
+                    daniel.santos97@gmail.com</a>
+            </p>
+        </footer>
+    </body>
+    <html>
